@@ -3,17 +3,19 @@ let time = prompt("Введите дату в формате YYYY-MM-DD");
 
 let ans1 = prompt ("Введите обязательную статью расходов в этом месяце");
 let ans2 = prompt ("Во сколько обойдется?");
-
+let ans3 = prompt ("Введите обязательную статью расходов в этом месяце");
+let ans4 = prompt ("Во сколько обойдется?");
 
 var appData = {
     budget: money,
     timeData: time,
-    expences: ans1+":"+ans2,
-    optionalExpenses: null,
-    income: null,
+    expences: {},
+    optionalExpenses: {},
+    income: [],
     savings: false
 };
 
-alert("Ваш бюджет на день: " + money);
+appData.expences.ans1 = ans2;
+appData.expences.ans3 = ans4;
 
-console.log(appData.budget,' ',appData.timeData,' ',appData.expences);
+alert("Ваш бюджет на день: " + appData.budget/30);
