@@ -15,3 +15,5 @@ var appData = {
 };
 
 alert("Ваш бюджет на день: " + money);
+
+console.log(appData.budget,' ',appData.timeData,' ',appData.expences);
