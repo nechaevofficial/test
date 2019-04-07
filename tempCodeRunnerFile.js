@@ -1,1 +1,1 @@
-alert( null || 2 && 3 || 4 ); 
+time = prompt("Введите дату в формате YYYY-MM-DD");
