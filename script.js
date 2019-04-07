@@ -12,8 +12,6 @@ function start(){
 start();
 
 
-
-
 var appData = {
     budget: money,
     timeData: time,
