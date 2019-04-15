@@ -1,1 +1,0 @@
-time = prompt("Введите дату в формате YYYY-MM-DD");
